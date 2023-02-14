@@ -2,7 +2,7 @@ package Transport;
 
 public class PassengerCar<T extends Driver_Category_B> extends Transport implements Competing {
 
-    private T driver;
+    private final T driver;
     public PassengerCar(String brand, String model, double engineVolume, T driver) {
         setBrand(defaultBrandOrModel(brand));
         setModel(defaultBrandOrModel(model));

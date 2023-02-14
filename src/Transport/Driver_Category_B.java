@@ -10,16 +10,16 @@ public class Driver_Category_B extends Driver {
 
     @Override
     public void startDriving() {
-        System.out.println("B - кат. водитель" + getFullName() + "начал движение.");
+        System.out.println("B - кат. водитель " + getFullName() + " начал движение.");
     }
 
     @Override
     public void stopDriving() {
-        System.out.println("B - кат. водитель" + getFullName() + "закончил движение.");
+        System.out.println("B - кат. водитель " + getFullName() + " закончил движение.");
     }
 
     @Override
     public void fillFuel() {
-        System.out.println("B - кат. водитель" + getFullName() + "заправил автомобиль.");
+        System.out.println("B - кат. водитель " + getFullName() + " заправил автомобиль.");
     }
 }
